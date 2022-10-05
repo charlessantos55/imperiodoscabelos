@@ -1,0 +1,531 @@
+body{
+    margin: 0; 
+    width: 100%; 
+}
+
+* { margin: 0; padding: 0; }
+
+#total{
+    width: 100%; 
+    height: auto;  
+    margin: auto;  
+}
+
+#topo{
+    width: 100%; 
+    height: 140px;
+    float: left;    
+    background-color: black;
+    opacity:.9;
+
+    
+}
+
+
+#logo{
+    width: auto;
+    height: auto;
+    float: left; 
+    margin-left: 2%;
+    margin-top: -20px;
+   
+}
+
+#menu{
+    float: right;
+    height: 100px;
+    width: 600px;
+    margin-left: 37%;
+    margin-top: 3%; 
+}
+
+#menu a{
+    
+    text-decoration: none;
+    color: pink;
+    display: inline-block;
+    padding: 10px 0px 5px 0px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 33px;
+    margin-top: 5px;
+}
+
+#menu a:hover{
+    color:white;
+    border-bottom: solid white 3px;
+}
+
+#Banner {
+    width: 100%;
+    height: auto;
+    float: left;
+    
+}
+
+#banner-info {
+float: left;
+height: auto;
+width: auto;
+margin-left: 20%;
+margin-top: 1%;
+display: flex;
+
+}
+
+#banner-info a{
+    
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    padding: 5px 5px 5px 5px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+#contato_t{
+	font-family: 'Roboto', sans-serif;
+	margin-left: 43%;
+	width: auto;
+	margin-top: 2%;
+}
+.slider {
+    display: block;
+    height: 293px;
+    width: 600px;
+    margin: auto;
+    margin-top: 20px;
+    position: relative;
+    float: left;
+    border: solid 1px red;
+ }
+
+.slider li{
+    list-style: none;
+    position: absolute;
+}
+
+.slider img {
+    margin: auto;
+    height: auto;
+    width: 100%;
+    vertical-align: top;
+ } 
+
+
+}
+#conteudo {
+    width: 100%;
+    height: auto;
+    float: left;
+    
+}
+#teste{
+    width: 100%; 
+    height: 250px; 
+    float: left;    
+    margin-left: 150PX; 
+    margin-top: 4%; 
+    margin-bottom: 5%;  
+}
+
+#teste img{ 
+    float: left; 
+    border-radius: 15px;
+    margin-right: 100PX;
+    
+}
+
+#c1{
+    float: right;
+    width: auto;
+    height: auto;
+    font-family:'Roboto', sans-serif;
+    margin-right: 6%;
+}
+
+#c2{
+    float: left;
+    width: 70%;
+    height: auto;
+    font-family:'Roboto', sans-serif;
+    margin-left: 14%;
+    margin-top: 2%;
+    margin-bottom: 2.5%;
+}
+
+#c2 h1{
+    height: auto;
+    float:left ;
+    margin-left: 40%;
+}
+
+#c2 p{
+    width: auto;
+    height: auto;
+    float: left ;
+}
+#c3 {
+    width: auto;
+    height: auto;
+    margin-left: 23%;
+}
+#c3 img{
+    margin-top: 15%;
+    border-radius: 15px;
+}
+    * {box-sizing: border-box}
+
+/* Container needed to position the overlay. Adjust the width as needed */
+.QS {
+  position: relative;
+  width: 50%;
+  max-width: 300px;
+  
+ 
+}
+
+/* Make the image to responsive */
+.image {
+  width: 300px;
+  height: 200px;
+  border-radius: 15px;
+}
+
+/* The overlay effect - lays on top of the container and over the image */
+.overlay {
+  position: absolute; 
+  bottom: 0; 
+  background:rgb(176, 174, 174, 0.5);
+  width: 300px;
+  height: 25%;
+  opacity: 0.8;
+  transition: .5s ease;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  font-family:'Roboto', sans-serif;
+  margin-top:20%;
+  border-radius: 15px;
+ 
+}
+
+.overlay1 {
+ position: absolute; 
+  bottom: 0; 
+  background:rgb(176, 174, 174, 0.5);
+  width:700px;
+  height: 7%;
+  opacity: 0.8;
+  transition: .5s ease;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  font-family:'Roboto', sans-serif;
+  margin-top:20%;
+  border-radius: 15px;
+ 
+}
+
+/* When you mouse over the container, fade in the overlay title */
+.QS:hover .overlay1 {
+  opacity: 1;
+  background: #6B8E23;
+  color: #f1f1f1;
+}
+
+
+
+* {box-sizing: border-box}
+
+/* Container needed to position the overlay. Adjust the width as needed */
+.container {
+  position: relative;
+  width: 50%;
+  max-width: 300px;
+  margin-bottom:18%;
+}
+
+/* Make the image to responsive */
+.image {
+  width: 300px;
+  height: 200px;
+  border-radius: 15px;
+
+}
+
+#rodape{
+    width: 100%;
+    height: auto;
+    float: left;
+}
+#r1{
+    width: 100%;
+    height: 100px;
+    float: left;
+    background-color: black;
+    margin-top: 3%;
+}
+
+#r2{
+    width: 100%;
+    height: 200px;
+    float: left;
+    background-color: #000;
+}
+
+#r2 li{
+    width: auto;
+    height: auto;
+    margin-bottom: 3%;
+    display: inline-block;
+    margin-left: 5%;
+}
+
+#r2 img{
+ padding-right: 3px;
+}
+
+#r2 h3{
+    color: #808080;
+    font-size: 15px;
+    margin-left: 0.2px;
+    margin-top: 20px;   
+}
+#txt{
+    float: left;
+    font-size: 17px;
+    color:  #fff;
+    width: 94%;
+    height: auto;
+    margin-left: 5%;
+    margin-top: 2%;
+    font-family: 'Roboto', sans-serif;
+}
+
+#r3{
+    width: 100%;
+    height: 60px ;
+    float: left;
+    background-color:#000;
+}
+#r3 p{
+    width: auto;
+    height: auto;
+    line-height: 20px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: #808080;
+    font-size: 13px;
+    margin-top: 24px;       
+}
+
+.mapa{
+    float:left;
+    width: 50%;
+    height: auto;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 6%;
+    margin-top: 2%;
+    color: #808080;
+    
+}
+
+#form{
+    margin-top: 15%;
+    margin-left: 12%;
+    margin-bottom: 4%;
+    width: auto;
+    height: auto;
+    float: left;
+    font-family: 'Roboto', sans-serif;
+}
+#icons{
+    width: 360px; 
+    height: auto; 
+    float: left;
+    margin-left: 55%;
+    margin-top: -450px; 
+    -webkit-box-shadow: 10px 10px 17px 0px rgba(0,0,0,0.15);
+    -moz-box-shadow: 10px 10px 17px 0px rgba(0,0,0,0.15);
+    box-shadow: 10px 10px 17px 0px rgba(0,0,0,0.15);    
+}
+#icons2{
+    width: auto; 
+    height: 60px; 
+    float: left;
+    margin-top: 13px;
+    margin-bottom: 13px;
+    margin-left: 13px;
+}
+#icons2 img{
+    float: left;
+    width: 60px;
+}
+    #icons2 p{
+        font-size: 25px;
+        font-family: 'Roboto', sans-serif;
+        float: right;
+        width: 260px;
+        height: auto;
+        color: #828282;
+        margin-left: 13px;
+        margin-top: 12px;
+    }
+
+    .formulario{
+        width: 400px;
+        padding: 30px;
+        border:1px solid #ccc;
+        margin-left: 20%;
+    }
+    .formulario p{
+        width: 100%;
+        font-size: 1.5em;
+    }
+    .field{
+        width: 100%;
+        margin: 15px 0;
+    }
+    .field label, 
+    .field span{
+        padding-left: 10px;
+        font-size: 1.1em;
+        display: block;
+        width: 100%;
+    }
+    .radiobox label{
+        width: auto;
+        display: inline-block;
+    }
+    input[type=text],
+    input[type=email],
+    textarea{
+        width: 100%;
+        padding-left: 10px;
+        height: 30px;
+        line-height: 30px;
+        border-radius: 15px;
+        border: 1px solid #ccc;
+        outline: none;
+    }
+    input#nao{
+        margin-left: 30px;
+    }
+    textarea{
+        line-height: 20px;
+        padding: 10px;
+        height: 90px;
+        resize: none;
+    }
+    input[type=submit]{
+        display: block;
+        background-color: #ccc;
+        height: 35px;
+        border: none;
+        outline: 0;
+        cursor: pointer;
+        width: 100px;
+        margin: 0 auto;
+        text-align: center;
+        border-radius: 15px;
+    }
+
+.hr{
+    border: 0;
+    height: 1px;
+    width: 100%;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), #D8D8D8, rgba(0, 0, 0, 0));
+
+}  
+
+
+#teste2 {
+margin: 70px;
+margin-bottom: 50px;
+margin-right: 30px;
+margin-top: 150px;
+
+}
+
+#serviços {
+margin-right: 50px;
+
+}
+
+#titulo_servicos {
+margin-top: 1px;
+
+
+}
+
+.slider{
+        overflow: hidden;
+    
+    }
+    .slider > .slider-content{
+        display: flex;
+        flex-wrap: nowrap;
+        width: 50%;
+        transition: all 500ms ease;
+    
+    }
+    
+    .slider > .slider-content > .slider-item {
+        flex: 0 0 auto;
+        width: 100%;
+
+    }
+    
+    .slider > input:nth-child(1):checked ~ .slider-content{
+        transform: translateX(0%);
+    }
+    
+    .slider > input:nth-child(2):checked ~ .slider-content{
+        transform: translateX(-100%);
+    }
+    .slider > input:nth-child(3):checked ~ .slider-content{
+        transform: translateX(-200%);
+    }
+    
+    .slider > input:nth-child(4):checked ~ .slider-content{
+        transform: translateX(-300%);
+    }
+    
+    
+    #posicaogaleria {
+        margin-left: 400px;
+
+    }
+
+    #posicaogaleria2 {
+        margin-left: 400px;
+    }
+
+    #posicaogaleria3 {
+        margin-left: 400px;
+    }
+
+
+   @media (max-width: 1000px){
+    #home img {
+        display: none;
+    }
+}
+
+@media (max-width: 800px) {
+    header {
+        padding: 40px 40px 0 40px;
+    }
+}
+
+@media (max-width: 768px){
+html
+font-size: 87.5%;
+}
+
+
